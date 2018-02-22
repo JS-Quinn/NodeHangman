@@ -6,7 +6,7 @@ var Letter = function(character) {
             this.guessState = true;
         }
     }
-    this.ifGuessed = function() {
+    this.hasItBeenGuessed = function() {
         if (this.guessState === true) {
             return this.character;
         } else {
@@ -24,4 +24,4 @@ console.log("Guess State: " + A.guessState);
 console.log("-------------------");
 A.characterCheck("a");
 console.log("Guess State: " + A.guessState);
-A.ifGuessed();*/
+A.hasItBeenGuessed();*/
